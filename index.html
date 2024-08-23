@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Hikari's portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet"> 
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="header">
+            <div class="header-inner wrapper">
+                <div class="main-title">
+                    <p class="header-title"><a href="index.html">Web desiner</a></p>
+                    <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li><a href="works.html">works</a></li>
+                        <li><a href="index.html#contact">contact</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+        <!-- レスポンシブ時ヘッダー　-->
+        <header class="header">
+            <div class="logo"><div class="main-title"><p class="header-title"><a href="index.html">Web desiner</a></p>
+                              <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p></div></div>
+            <button class="hamburger-menu" id="js-hamburger-menu">
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+            </button>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="index.html" class="navigation__link">home</a></li>
+                <li class="navigation__list-item"><a href="about.html" class="navigation__link">about me</a></li>
+                <li class="navigation__list-item"><a href="works.html" class="navigation__link">works</a></li>
+                <li class="navigation__list-item"><a href="index.html#contact" class="navigation__link">contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        <!-------------------------->
+        <div class="main">
+            <section id="mainvisual" class="wrapper">
+                <div class="main-visual">
+                    <img src="img/main.jpg" alt="メイン画像">
+                    <div class="main-text">
+                        <h1 class="site-title">Hikari</h1>
+                        <h2 class="site-subtitle">Web Designer</h2>
+                        <p>
+                            人を思い、人に伝わるデザインを。<br>
+                            いつも誠実に、丁寧に向き合う<br>
+                            デザイナーでありたいと思います。
+                        </p>
+                    </div>
+                    <p class="main-text02">Thank you for visiting my portfolio.</p>
+                </div>
+                <!--レスポンシブ時-->
+                <div class="main-visual-res">
+                    <img src="img/res-main.jpg" alt="メイン画像">
+                    <div class="main-text">
+                        <h1 class="site-title">Hikari</h1>
+                        <h2 class="site-subtitle">Web Designer</h2>
+                        <p>
+                            人を思い、人に伝わる<br>デザインを。
+                            <br>いつも誠実に、<br>丁寧に向き合う<br>
+                            デザイナーでありたいと思います。
+                        </p>
+                    </div>
+                    <p class="main-text02">Thank you for visiting my portfolio.</p>
+                </div>
+                <!---------------->    
+            </section>
+            <section id="about" class="wrapper">
+                <h2 class="section-title">about me</h2>
+                <h3 class="sub-title">私について</h3>
+                <div class="about-item">
+                    <div class="about-img fadeUpTrigger"><img src="img/IMG_7288.JPG" alt="本人写真1"></div>
+                    <div class="about-text fadeRightTrigger">
+                        <h3>Webデザイナー</h3>
+                        <P>
+                            人を思い、人に伝わる効果的なデザインを<br>
+                            心がけます。デザインの理由を説明できる<br>
+                            よう、根拠に基いたデザインを提案いたし<br>
+                            ます。医療現場での経験により身につけた<br>
+                            常に学習する姿勢を持ち続け、スキルアップ<br>
+                            に繋げます。
+                        </P>
+                        <p><a href="about.html">view more</a></p>
+                    </div>   
+                </div>
+            </section>
+            <section id="works" class="wrapper">
+                <h2 class="section-title">works</h2>
+                <h3 class="sub-title">制作したもの</h3>
+                <ul class="works-item fadeUpTrigger">
+                    <li class="works-img-mask">
+                        <a href="works.html"><img src="img/スクリーンショット 2024-06-20 16.07.25.png" alt="サイトトップ画像"></a>
+                        <p class="works-mask-text">Web制作</p>
+                    </li>
+                    <li class="works-img-mask">
+                        <a href="lp.html"><img src="img/Group 122.png" alt="LPトップ画像"></a>
+                        <p class="works-mask-text">LPデザイン</p>
+                    </li>
+                    <li class="works-img-mask">
+                        <a href="paper.html"><img src="img/4.png" alt="名刺画像"></a>
+                        <p class="works-mask-text">印刷物</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" class="wrapper">
+                <h2 class="section-title">contact</h2>
+                <h3 class="sub-title">お問い合わせ</h3>
+                <div class="contact-item">
+                    <form action="#">
+                        <dl>
+                            <dt><label for="name">お名前</label></dt>
+                            <dd><input type="text" id="name" name="your-name"></dd>
+                            <dt><label for="email">メールアドレス</label></dt>
+                            <dd><input type="email" id="email" name="your-email"></dd>
+                            <dt><label for="title">件名</label></dt>
+                            <dd><input type="text" id="title" name="your-title"></dd>
+                            <dt><label for="message">本文</label></dt>
+                            <dd><textarea id="message" name="your-message"></textarea></dd>
+                        </dl>
+                        <div class="button"><input type="submit" value="送信する"></div>
+                    </form>
+                    <div class="contact-text fadeRightTrigger">
+                        <p>
+                            お仕事のご依頼など、お問い合わせ<br>
+                            お待ちしております。
+                        </p>
+                        <div class="image"><img src="img/Hand_holding_heart_sign__Continuous-removebg-preview.png" alt="ハート画像"></div>
+                        <div class="address">
+                            <div class="icon"><img src="img/メールの無料アイコンその8.png" alt="メールアイコン"></div>
+                            <p>hikamncrt22@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <p>&copy;Hikari Kinoshita</p>
+        </footer>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
