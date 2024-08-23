@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Hikari's portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet"> 
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
+    <body>
+        <header id="header">
+            <div class="header-inner wrapper">
+                <div class="site-title">
+                    <p class="header-title"><a href="index.html">Web desiner</a></p>
+                    <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li><a href="works.html">works</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <!-- レスポンシブ時ヘッダー　-->
+        <header class="header">
+            <div class="logo"><div class="main-title"><p class="header-title"><a href="index.html">Web desiner</a></p>
+                              <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p></div></div>
+            <button class="hamburger-menu" id="js-hamburger-menu">
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+            </button>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="index.html" class="navigation__link">home</a></li>
+                <li class="navigation__list-item"><a href="about.html" class="navigation__link">about me</a></li>
+                <li class="navigation__list-item"><a href="works.html" class="navigation__link">works</a></li>
+                <li class="navigation__list-item"><a href="index.html#contact" class="navigation__link">contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        <!-------------------------->
+        <section id="lp02" class="wrapper">
+            <h2 class="link-title">ファンデーション LP</h2>
+            <ul class="lp-img">
+                <li><img src="img/lp001.jpg" alt="LPトップ画像"></li>
+                <li><img src="img/lp4.jpg" alt="LP画像2"></li>
+                <li><img src="img/lp004.jpg" alt="LP画像3"></li>
+                <li><img src="img/lp7.jpg" alt="LP画像4"></li>
+                <li><img src="img/lp8.jpg" alt="LP画像5"></li>
+                <li><img src="img/lp9.jpg" alt="LP画像6"></li>
+            </ul>
+            </div>
+            <p class="fadeUpTrigger">
+                ファンデーションのLPをFigmaでデザインしました。20〜40代の女性をターゲットにした商品のため、<br>
+                彩度の高い色を使用し、この商品を使うことで気分が上がるようなイメージで作成しました。<br>
+                ファンデーションを使用することで、肌が綺麗に見えるというメッセージを視覚的に訴えるため、<br>
+                女性の肌の写真を使用しました。
+            </p>
+        </section>
+        <footer id="footer">
+            <p>&copy;Hikari Kinoshita</p>
+        </footer>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
