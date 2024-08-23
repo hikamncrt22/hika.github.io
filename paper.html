@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Hikari's portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet"> 
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="header-inner wrapper">
+                <div class="site-title">
+                    <p class="header-title"><a href="index.html">Web desiner</a></p>
+                    <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li><a href="works.html">works</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <!-- レスポンシブ時ヘッダー　-->
+        <header class="header">
+            <div class="logo"><div class="main-title"><p class="header-title"><a href="index.html">Web desiner</a></p>
+                              <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p></div></div>
+            <button class="hamburger-menu" id="js-hamburger-menu">
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+            </button>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="index.html" class="navigation__link">home</a></li>
+                <li class="navigation__list-item"><a href="about.html" class="navigation__link">about me</a></li>
+                <li class="navigation__list-item"><a href="works.html" class="navigation__link">works</a></li>
+                <li class="navigation__list-item"><a href="index.html#contact" class="navigation__link">contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        <!-------------------------->
+        <section id="paper02" class="wrapper">
+            <div class="paper-link">
+                <h2 class="link-title">①名刺（制作課題）</h2>
+                <div class="paper-item">
+                    <ul class="paper-item-faderight">
+                        <li><img src="img/1.png"></li>
+                        <li><img src="img/2.png"></li>
+                    </ul>
+                    <p class="fadeup">制作課題で作成しました。淡く、可愛らしい雰囲気の配色や装飾にしました。</p>
+                </div>
+            </div>
+            <div class="paper-link">
+                <h2 class="link-title">②名刺（自分の名刺）</h2>
+                <div class="paper-item">
+                    <ul class="fadeRightTrigger">
+                        <li>
+                            <img src="img/名刺.png">
+                        </li>
+                        <li>
+                            <img src="img/名刺2.png">
+                        </li>
+                    </ul>
+                    <p class="fadeUpTrigger">
+                        Canvaで自分の名刺を作成しました。自分の好きな色であるピンクを使用し、<br>
+                        柔らかい雰囲気を出したかったのでそのイメージで作成しました。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <p>&copy;Hikari Kinoshita</p>
+        </footer>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
