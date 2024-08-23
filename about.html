@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Hikari's portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet"> 
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-inner wrapper">
+                <div class="site-title">
+                    <p class="header-title"><a href="index.html">Web desiner</a></p>
+                    <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li><a href="works.html">works</a></li>
+                        <li><a href="index.html#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        <!-- レスポンシブ時ヘッダー　-->
+        <header class="header">
+            <div class="logo"><div class="main-title"><p class="header-title"><a href="index.html">Web desiner</a></p>
+                              <p class="header-name"><a href="index.html">Hikari Kinoshita</a></p></div></div>
+            <button class="hamburger-menu" id="js-hamburger-menu">
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+              <span class="hamburger-menu__bar"></span>
+            </button>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__list-item"><a href="index.html" class="navigation__link">home</a></li>
+                <li class="navigation__list-item"><a href="about.html" class="navigation__link">about me</a></li>
+                <li class="navigation__list-item"><a href="works.html" class="navigation__link">works</a></li>
+                <li class="navigation__list-item"><a href="index.html#contact" class="navigation__link">contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        <!-------------------------->
+        <section id="aboutme" class="wrapper">
+            <div class="me">
+                <div class="me-img">
+                    <div class="img"><img src="img/IMG_4156.JPG" alt="本人写真2"></div>
+                    <div class="me-text">
+                        <p>1994.11.22</p>
+                        <p class="me-name">
+                            木下 陽加里
+                        </p>
+                        <p>きのした ひかり</p>
+                    </div>
+                </div>
+                <div class="me-item">
+                    <h2 class="section-title">about me</h2>
+                    <h3 class="sub-title">私について</h3>
+                    <div class="item-text">
+                        <p>
+                            1994年生まれの29歳。<br>
+                            20歳で看護師免許を取得し、9年間看護師として<br>
+                            勤務しました。
+                        </p>
+                        <p>
+                            30歳という節目を目前にして、人生の選択肢を<br>
+                            増やしたいと思い、Webデザインを学び始めました。<br>
+                        </p>
+                        <p>
+                            日進月歩の医療現場での経験を活かしながら、<br>
+                            常に学んで知識や技術をアップデートし続け、<br>
+                            デザイナーとして成長していきたいです。
+                        </p>
+                    </div>
+                    <div class="item-img"><img src="img/花.png" alt="花画像"></div>
+                </div>
+            </div>
+
+            <!-- レスポンシブ時のみ表示 -->
+            <div class="me-sp">
+                <h2 class="section-title">about me</h2>
+                <h3 class="sub-title">私について</h3>
+                <div class="me-img">
+                    <div class="img"><img src="img/IMG_4156.JPG" alt="本人写真2"></div>
+                    <div class="me-text">
+                        <p>1994.11.22</p>
+                        <p class="me-name">
+                            木下 陽加里
+                        </p>
+                        <p>きのした ひかり</p>
+                    </div>
+                </div>
+                <div class="me-item">
+                    <div class="item-text">
+                        <p>
+                            1994年生まれの29歳。<br>
+                            20歳で看護師免許を取得し、9年間看護師として<br>
+                            勤務しました。
+                        </p>
+                        <p>
+                            30歳という節目を目前にして、人生の選択肢を<br>
+                            増やしたいという思いから、Webデザインを<br>
+                            学び始めました。
+                        </p>
+                        <p>
+                            日進月歩の医療現場での経験を活かしながら、<br>常に
+                            学んで知識や技術をアップデートし続け、<br>デザイナー
+                            として成長していきたいです。
+                        </p>
+                    </div>
+                    <div class="item-img"><img src="img/花.png" alt="花画像"></div>
+                </div>
+            </div>
+            <!--以上レスポンシブ時のみ表示-->
+        </section>
+        <section id="skills" class="wrapper">
+            <div class="page-title">
+                <div class="maru"></div>
+                <h3 class="page-main-title">skills</h3>
+                <h4 class="page-sub-title">できること</h4>
+            </div>
+            <div class="skills-item fadeUpTrigger">
+                <ul>
+                    <li>
+                        <div class="skills-icon"><img src="img/絵具のパレットのアイコン素材 1.png" alt="絵の具アイコン"></div>
+                        <h5 class="item-title">Webデザイン</h5>
+                        <p>Canva</p>
+                        <p>Figma</p>
+                    </li>
+                    <li>
+                        <div class="skills-icon"><img src="img/PCディスプレイのアイコン素材 2.png" alt="パソコンアイコン"></div>
+                        <h5 class="item-title">Web制作</h5>
+                        <p>WIX</p>
+                    </li>
+                    <li>
+                        <div class="skills-icon"><img src="img/マウスのアイコン素材 6.png" alt="マウスアイコン"></div>
+                        <h5 class="item-title">準備中</h5>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="carrer" class="wrapper">
+            <div class="page-title">
+                <div class="maru"></div>
+                <h3 class="page-main-title">carrer</h3>
+                <h4 class="page-sub-title">経歴</h4>
+            </div>
+            <div class="carrer-item fadeRightTrigger">
+                <div class="carrer-img"><img src="img/carrer.jpg" alt="経歴アイコン"></div>
+                <div class="carrer-text">
+                    <h4 class="carrer-title">高等学校看護専攻科を卒業、看護師免許取得</h4>
+                    <p>
+                        東京の総合病院に就職し、手術室看護師として勤務する。<br>
+                        患者さんにとって人生の大きな出来事である手術に、看護師として寄り添う。
+                    </p>
+                    <h4 class="carrer-title">地元の福岡に戻り、コロナ禍の現場で勤務</h4>
+                    <p>
+                        日々の全てが変わったコロナ禍。クリニックや病院に勤務し、様々な年齢や<br>
+                        疾患・社会的背景を持つ人々に、看護師として関わる。
+                    </p>
+                    <h4 class="carrer-title">9年間の看護師勤務に一度区切りをつけ、スクール受講</h4>
+                    <p>
+                        これからの人生の選択肢を増やし、30代を楽しく生きるためにスキルを身につける<br>
+                        ことを決意。<br>夜勤専従看護師を退職し、WEbスキル習得のためスクールを受講する。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="vision" class="wrapper">
+            <div class="page-title">
+                <div class="maru"></div>
+                <h3 class="page-main-title">vision</h3>
+                <h4 class="page-sub-title">これから</h4>
+            </div>
+            <div class="vision-item">
+                <div class="vision-img fadeUpTrigger">
+                    <img src="img/vision.jpg" alt="花束写真">
+                </div>
+                <div class="vision-text fadeRightTrigger">
+                    <p class="text01">
+                        看護師として駆け抜けた20代。日常も医療現場も<br>全てが変わったコロナ禍を経て、
+                        今後の人生を<br>より豊かなものにしたいと考えるようになりました。<br>   
+                    </p>
+                    <p class="text02">
+                        WEBやSNSのスキルを学び始めて、まだまだ<br>勉強中です。
+                        常に知識も技術もスキルアップ<br>し続け、たくさんの方に出会い、
+                        Webデザイナー<br>として成長していきたいと思います。    
+                    </p>
+                    <p class="text03">
+                        将来的には看護師にも復帰し、両立していきたいと<br>考えています。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact02" class="wrapper">
+            <div class="section-title">
+                <h2 class="section-title">contact</h2>
+                <h3 class="sub-title">お問い合わせ</h3>
+            </div>
+            <p>
+                お仕事のご依頼など、お気軽にお待ちしております。
+            </p>
+            <p><a href="index.html#contact">お問い合わせ</a></p>
+        </section>
+        <footer id="footer">
+            <p>&copy;Hikari Kinoshita</p>
+        </footer>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
